@@ -192,16 +192,6 @@
       width: 100%;
       max-width: 840px;
       margin: 0 auto;
-      border-radius: 12px;
-      overflow: hidden;
-      border: 1px solid var(--gray2);
-      box-shadow: 0 20px 80px rgba(253,190,32,.12);
-    }
-    .video-wrapper video {
-      width: 100%;
-      aspect-ratio: 16/9;
-      object-fit: cover;
-      display: block;
     }
 
     /* ─────────────────────────────────────
@@ -895,14 +885,8 @@
       <h2 class="section-title">Assista — vou te mostrar tudo na prática</h2>
       <p class="section-subtitle">Abro os bastidores do meu canal e mostro os números reais. Sem enrolação.</p>
       <div class="video-wrapper">
-        <video
-          controls
-          preload="metadata"
-          poster="https://inevitavelcortes.com/pagina1/_assets/video/36fa4e4399bca30f37a98ea64ebee0dd.jpg"
-        >
-          <source src="https://inevitavelcortes.com/pagina1/_assets/video/e9fb8b263634bbcecc8d9e733b9c7877.mp4" type="video/mp4" />
-          Seu navegador não suporta vídeo HTML5.
-        </video>
+        <vturb-smartplayer id="vid-69ea60d096ff268776258d80" style="display: block; margin: 0 auto; width: 100%;"></vturb-smartplayer>
+        <script type="text/javascript">var s=document.createElement("script");s.src="https://scripts.converteai.net/3698efd1-9bad-4036-91e1-2e80107bab1f/players/69ea60d096ff268776258d80/v4/player.js",s.async=!0,document.head.appendChild(s);</script>
       </div>
     </div>
   </section>
